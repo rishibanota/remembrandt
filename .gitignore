@@ -26,3 +26,5 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+scripts/install.sh
+git-push.sh
