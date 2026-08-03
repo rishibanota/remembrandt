@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "category": "decision",
+  "content": "Use uv for dependency management",
+  "tags": [
+    "uv"
+  ],
+  "source": "cli",
+  "created_at": "2026-08-03T11:00:52+00:00",
+  "updated_at": "2026-08-03T11:00:52+00:00"
+}

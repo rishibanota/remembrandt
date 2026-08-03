@@ -1,0 +1,2 @@
+# remembrandt has zero runtime dependencies — it only uses the Python
+# standard library. Install the CLI with:  pip install -e ".[dev]"

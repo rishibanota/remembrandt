@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "remembrandt"
+version = "0.1.0"
+description = "Never forgets. Persistent memory for Claude Code, Cursor and Codex coding agents."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Remembrandt contributors" }]
+keywords = ["ai", "agent", "claude-code", "cursor", "codex", "memory", "mcp", "skill"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Build Tools",
+    "Environment :: Console",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-cov>=4"]
+
+[project.scripts]
+remembrandt = "agent_memory.cli:main"
+
+[project.urls]
+Repository = "https://github.com/YOUR_USERNAME/remembrandt"
+Homepage = "https://github.com/YOUR_USERNAME/remembrandt"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

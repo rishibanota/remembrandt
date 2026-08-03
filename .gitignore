@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Local memory stores (don't commit another project's memory by default).
+# The sample store under examples/demo is committed as a showcase.
+.remembrandt/
+!examples/demo/.remembrandt/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "category": "gotcha",
+  "content": "Never mutate the shared config object",
+  "tags": [],
+  "source": "cli",
+  "created_at": "2026-08-03T11:00:52+00:00",
+  "updated_at": "2026-08-03T11:00:52+00:00"
+}
