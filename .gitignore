@@ -26,5 +26,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
-scripts/install.sh
+
+# Local helper for the author only (not part of the distributed project)
 git-push.sh
