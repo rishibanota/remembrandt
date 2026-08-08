@@ -12,7 +12,7 @@
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT"></a>
   <a href="#"><img src="https://img.shields.io/badge/python-3.9+-informational" alt="Python 3.9+"></a>
   <a href="#"><img src="https://img.shields.io/badge/zero-dependencies-brightgreen" alt="Zero dependencies"></a>
-  <a href="#"><img src="https://img.shields.io/github/stars/YOUR_USERNAME/remembrandt?style=social" alt="stars"></a>
+  <a href="#"><img src="https://img.shields.io/github/stars/rishibanota/remembrandt?style=social" alt="stars"></a>
 </p>
 
 <p align="center">
