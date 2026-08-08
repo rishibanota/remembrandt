@@ -23,6 +23,10 @@
 
 ---
 
+![demo](assets/demo.gif)
+
+---
+
 ## 🤔 The problem
 
 You spend 20 minutes re-explaining your architecture to Claude Code, Cursor or
