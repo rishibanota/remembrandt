@@ -130,9 +130,15 @@ def test_categories_are_valid():
         assert validate_category(c) == c
 
 
+import os
+
+
 # -------------------------------------------------------------------- cli
 def run_cli(tmp_path, *args):
-    env = {"REMBRANDT_DIR": str(tmp_path / "mem")}
+    env = os.environ.copy()
+    env["REMBRANDT_DIR"] = str(tmp_path / "mem")
+    src_dir = str(Path(__file__).parent.parent / "src")
+    env["PYTHONPATH"] = f"{src_dir}{os.pathsep}{env.get('PYTHONPATH', '')}"
     return subprocess.run(
         [sys.executable, "-m", "agent_memory", *args],
         capture_output=True,
