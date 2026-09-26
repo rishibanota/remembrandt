@@ -26,8 +26,8 @@ dev = ["pytest>=7", "pytest-cov>=4"]
 remembrandt = "agent_memory.cli:main"
 
 [project.urls]
-Repository = "https://github.com/YOUR_USERNAME/remembrandt"
-Homepage = "https://github.com/YOUR_USERNAME/remembrandt"
+Repository = "https://github.com/rishibanota/remembrandt"
+Homepage = "https://github.com/rishibanota/remembrandt"
 
 [tool.setuptools.packages.find]
 where = ["src"]
